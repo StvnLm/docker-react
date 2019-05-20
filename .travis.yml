@@ -4,7 +4,7 @@ services:
   - docker
   
 before_install:
-  - docker build -t sl10/docker-react .
+  - docker build .
 #  - docker build -t sl10/docker-react -f Dockerfile.dev .
   
 #script:
